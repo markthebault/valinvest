@@ -50,9 +50,9 @@ class Fundamental:
         self.apikey = apikey
 
         # Checks if ticker in SP500 or NASDAQ
-        if self.ticker not in NASDAQ_100_TICKERS and self.ticker not in SP_500_TICKERS:
-            raise ValueError(
-                "Ticker should be a NASDAQ 100 ticker or SP 500 ticker")
+#         if self.ticker not in NASDAQ_100_TICKERS and self.ticker not in SP_500_TICKERS:
+#             raise ValueError(
+#                 "Ticker should be a NASDAQ 100 ticker or SP 500 ticker")
 
         self.statements = self._get_financial_statements()
 
